@@ -18,7 +18,6 @@ export default class Queue<T> {
         this.length++;
         if (!this.tail) {
             this.tail = this.head = node;
-            console.log(this.head, this.tail);
             return;
         }
 
